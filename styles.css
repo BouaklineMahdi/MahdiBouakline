@@ -90,3 +90,12 @@ a {
 a:hover {
     color: #0056b3; /* Darker blue on hover */
 }
+
+.header-content {
+    background-image: url('https://media.licdn.com/dms/image/D4E16AQEWHcEBs0yjsQ/profile-displaybackgroundimage-shrink_350_1400/0/1709234748595?e=1720656000&v=beta&t=7NUhw3gwBe5NCxONf9QafSY4YqQXcg6C2bERmrUS9S4'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
