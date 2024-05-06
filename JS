@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Engineering Portfolio</title>
+    <title>Mahdi Bouakline - Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Software Engineering Portfolio</h1>
+        <h1>Mahdi Bouakline</h1>
+        <p>32 Halkirk Avenue, Kanata, ON, K2V 1B5</p>
+        <p>(343) 987-3404</p>
+        <p><a href="mailto:bouaklinemahdi@gmail.com">bouaklinemahdi@gmail.com</a></p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -19,23 +22,78 @@
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <p>Add a brief description about yourself, your skills, and your experience.</p>
+        <p>
+            Bachelor’s in Engineering, Software Engineering — Carleton University, Ottawa, ON, Canada<br>
+            September 2022 - Present<br>
+            Pursuing a minor in Economics.<br>
+            Led and organized 6th annual hackathon for cuHacking, specializing in community engagement and logistics.<br>
+            Relevant Courses: Computation and Programming, Data Management, Foundations of Imperative Programming, Object-Oriented Software Development, Introduction to Digital Systems, Introduction to Computer Organization and Architecture, Algorithms and Data Structures<br>
+            Expected Graduation Date: May 2027
+        </p>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Python, C, Java, HTML, CSS, JavaScript, C++, Adobe ActionScript used for programming projects in academia.</li>
+            <li>AWS, VS Code, Wing 101, IntelliJ, BlueJ, Dev C++ as IDEs and server hosting framework.</li>
+            <li>Soft skills including Microsoft Office, Communication, Collaboration, Leadership and Initiative.</li>
+            <li>Prototyped and fabricated CAD models using Fusion360 for 3-D printing.</li>
+            <li>Working knowledge of Windows and macOS operating systems.</li>
+        </ul>
+        <h3>Communication Skills</h3>
+        <ul>
+            <li>Clearly presented multiple reports, utilizing software such as PowerPoint.</li>
+            <li>Successfully wrote multiple professional technical reports.</li>
+            <li>Collaborated on multiple occasions with teams of three-four members to complete projects.</li>
+            <li>Fluent in French, English and Kabyle.</li>
+        </ul>
+        <h3>Experience</h3>
+        <p>
+            <strong>Community Engagement Officer</strong> — cuHacking, Ottawa, ON<br>
+            January 2024 - Present<br>
+            - Led year-round community engagement initiatives, orchestrating workshops, expert discussions, and coding challenges to continually develop the skills of students and early professionals in technology.<br>
+            - Developed and implemented monthly coding challenges, resulting in a 20% increase in consistent participation.<br>
+            - Initiated and led collaborative projects within the community, providing a platform for members to work on.
+        </p>
+        <!-- Add more experiences as needed -->
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project.</p>
-            <a href="#">View Project</a>
+            <h3>Financial Sentiment Analysis & Stock Ranking System</h3>
+            <p>February 2024 - March 2024</p>
+            <p>Collaborated with a team to apply NLP techniques in developing a machine learning project, developing financial sentiment analysis models for S&P 500 stocks.<br>
+            Transformed the model into an interactive website, offering users real-time sentiment insights and stock rankings.<br>
+            Achieved high accuracy on validation and test sets using TF-IDF for feature extraction.<br>
+            Designed an intuitive user interface with advanced visualization tools for an enriched user experience.<br>
+            Delivered detailed model evaluation reports, showcasing the effectiveness of the sentiment analysis and ranking.</p>
+        </div>
+        <div class="project">
+            <h3>Text-Based “Facebook”</h3>
+            <p>September 2023 - December 2023</p>
+            <p>Developed an advanced C-based social networking app with optimized data management using linked lists.<br>
+            Implemented user-friendly command-line interface for tasks like registration, profile modification, and post management.<br>
+            Completed project independently, showcasing self-reliance and problem-solving skills.<br>
+            Conducted individual research to introduce unique and advanced features, enhancing project innovation.<br>
+            Established a publicly accessible website to showcase the project, demonstrating transparency and effective communication.</p>
+        </div>
+        <div class="project">
+            <h3>Student Data Visualization Model</h3>
+            <p>January 2023 - April 2023</p>
+            <p>Led a team of four in developing a Python program for data extraction and modeling from CSV and TXT files.<br>
+            Organized and motivated the team, ensuring timely completion of all project components.<br>
+            Provided coaching and support to team members as needed.<br>
+            Developed an intuitive user interface to simplify program usage.<br>
+            Applied Python libraries including Matplotlib, Numpy, and Scipy for sorting, plotting, and visualizing data.<br>
+            Transformed raw data into actionable insights, enhancing decision-making for stakeholders.</p>
         </div>
         <!-- Add more projects as needed -->
     </section>
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>You can reach me at example@email.com</p>
+        <p>You can reach me at <a href="mailto:bouaklinemahdi@gmail.com">bouaklinemahdi@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/BouaklineMahdi">BouaklineMahdi</a></p>
     </section>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Mahdi Bouakline</p>
     </footer>
     <script src="script.js"></script>
 </body>
