@@ -3,11 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 .header-content {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -48,6 +49,7 @@ nav ul li a {
 
 .date {
     font-style: italic;
+    color: #6c757d; /* Gray color */
 }
 
 .skills {
@@ -56,6 +58,10 @@ nav ul li a {
 
 .experience {
     margin-top: 20px;
+}
+
+.experience p {
+    margin-bottom: 10px;
 }
 
 .project {
@@ -67,12 +73,20 @@ nav ul li a {
 }
 
 .project-description {
-    color: #555;
+    color: #6c757d; /* Gray color */
 }
 
-footer {
-    background-color: #333;
+.footer-content {
+    background-color: #343a40;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+a {
+    color: #007bff; /* Blue color */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
 }
