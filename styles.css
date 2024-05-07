@@ -76,6 +76,11 @@ nav ul li a {
     color: #6c757d; /* Gray color */
 }
 
+.social-logo {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
 .footer-content {
     background-color: #343a40;
     color: #fff;
