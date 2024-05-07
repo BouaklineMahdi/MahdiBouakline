@@ -7,13 +7,6 @@ body {
     color: #333;
 }
 
-.header-content {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
 .header-content p, .header-content nav {
     margin-top: 10px;
 }
