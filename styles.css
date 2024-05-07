@@ -91,7 +91,7 @@ a:hover {
 
 .header-content {
     background-image: url('background.jpg');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     color: #fff;
     padding: 20px;
